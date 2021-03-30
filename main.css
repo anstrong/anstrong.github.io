@@ -1,9 +1,9 @@
 * {
- font-family: 'Source Code Pro', monospace;
+ font-family: 'High Tower Text', monospace;
+ color: #44546A;
 }
 
 a {
-	color: black;
 	text-decoration: none;
 }
 
@@ -13,13 +13,30 @@ a:hover {
 
 body{
   display: grid;
-  grid-template-columns: 15% auto;
+  grid-template-columns: 25% auto;
   grid-column-gap: 7%;
-  background-image: url("Resources/bkgd2.jpg");
+  grid-template-rows: 30% auto;
+  grid-row-gap: 3%;
+  background-image: url("Resources/gradient.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
+}
+
+section {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  background-color: #FFFFFF;
+  height: auto;
+  width: 50%;
+  border-style: solid;
+  border-color: #44546A;
+  border-width: thick;
+  z-index: 1;
+  padding: 10%;
+  text-align: center;
+  size: 60px;
 }
 
 nav {
