@@ -4,7 +4,7 @@ import reactRefresh from "@vitejs/plugin-react-refresh";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [reactRefresh()],
-  build: {
+  /*build: {
     outDir: "build"
   },
   server: {
@@ -12,5 +12,5 @@ export default defineConfig({
     hmr: {
       port: 443 // Run the websocket server on the SSL port
     }
-  }
+  }*/
 });
