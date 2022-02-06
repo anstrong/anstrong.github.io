@@ -17,6 +17,7 @@ import "./styles/styles.css";
 // Where all of our pages come from
 import PageRouter from "./components/router.jsx";
 import useHashLocation from "./hooks/wouter-hash";
+import Home from "./pages/home";
 
 // The component that adds our Meta tags to the page
 import Seo from './components/seo.jsx';
@@ -40,7 +41,7 @@ const SocialButtonSet = props => (
 )
 
 // Home function that is reflected across the site
-export default function Home() {
+export default function App() {
   const buttonList = [{
                         label: "LinkedIn",
                         icon: "fa-linkedin-in",
@@ -61,7 +62,7 @@ export default function Home() {
         </div>
         <div className="content">
           {/* Router specifies which component to insert here as the main content */}
-          <PageRouter />
+          <Home/>
         </div>
       </main>
       <footer className="footer fixed-bottom">
