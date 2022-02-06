@@ -51,7 +51,7 @@ export default function Home() {
                         icon: "fa-github",
                         address: "https://github.com/anstrong"
                       }
-                     ]
+                    ]
   return (
     <Router hook={useHashLocation}>
       <Seo />

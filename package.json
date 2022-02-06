@@ -1,9 +1,12 @@
 {
   "name": "anstrong.io",
+  "homepage": "http://anstrong.github.io/",
   "version": "0.0.2",
   "description": "Personal portfolio of Annabelle Strong",
   "scripts": {
     "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "serve": "vite preview"
   },
