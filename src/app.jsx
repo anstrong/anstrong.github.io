@@ -27,7 +27,6 @@ export default function Home() {
           <Link href="/"><i class="fas fa-home back"></i></Link>
         </div>
         <div className="content">
-          {/* Router specifies which component to insert here as the main content */}
           <PageRouter />
         </div>
       </main>

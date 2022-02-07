@@ -1,6 +1,6 @@
 import * as React from "react";
 
-icons = {
+const icons = {
     "custom":"",
     "GitHub":"",
     "LinkedIn":"",
