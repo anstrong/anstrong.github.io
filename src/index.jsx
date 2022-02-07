@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./app.jsx";
-import Home from "./pages/home"
 import { HelmetProvider } from 'react-helmet-async';
 
 /**
@@ -15,7 +14,7 @@ import { HelmetProvider } from 'react-helmet-async';
 ReactDOM.render(
   <React.StrictMode>
     <HelmetProvider>
-      <Home />
+      <App />
     </HelmetProvider>
   </React.StrictMode>,
   document.getElementById("root")

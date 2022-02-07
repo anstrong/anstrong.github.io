@@ -1,4 +1,12 @@
 import * as React from "react";
+
+icons = {
+    "custom":"",
+    "GitHub":"",
+    "LinkedIn":"",
+    "Notion":"",
+    "back":""
+}
 const RecordHeader = props => (
     <div className="header card-title">
         <h3 class = "name">{props.left}</h3>

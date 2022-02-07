@@ -15,12 +15,12 @@ import About from "../pages/about";
 
 export default () => (
     <Switch>
-    <Route path="/" component={Home} />
-    <Route path="/resume" component={Resume} />
-    <Route path="/projects" component={Projects} />
-    <Route path="/about" component={About} />
+      <Route path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/resume" component={Resume} />
+      <Route path="/projects" component={Projects} />
     </Switch>
 );
-/*sections<Route path="/resume" component={Resume} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/about" component={About} />*/
+
+/*       <Route path="/resume" component={Resume} />
+      <Route path="/projects" component={Projects} />*/
