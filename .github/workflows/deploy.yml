@@ -14,8 +14,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           cache: "npm"
-      - name: Setup
+      - name: Setup node
         run: npm install
+      - name: Authorship
         run: git config --global user.email "annabellestrong@gmail.com"
       - name: Build React app
         run: npm run build
