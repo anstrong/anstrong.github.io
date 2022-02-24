@@ -1,0 +1,15 @@
+name: GitHub Pages Deployment
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    steps:
+      - name: Run a one-line script
+        run: |
+          npm run build
+          npm run deploy
