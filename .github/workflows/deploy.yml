@@ -8,8 +8,8 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        run: |
-          npm run build
-          npm run deploy
+      - run: npm run build
+      - run: npm run deploy
