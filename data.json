@@ -5,6 +5,24 @@
       "title": "Experience",
        "render": "makeJob",
        "records": [
+         {
+          "title": "Snap n' Go Undergraduate Researcher",
+          "place": "Wellesley College",
+          "duration": "Spring 2022",
+          "description": "Wellesley CrowdNets Lab",
+          "details": [
+            "Developing a mobile app using React Native to carry out an experiment about incentivizing data collection in the general population."
+          ],
+          "tags" : [
+            "research", "app development", "React Native"
+          ],
+          "links" : [
+            {
+              "address" : "",
+              "type": ""
+            }
+          ]
+        },
         {
           "title": "Peer Tutor",
           "place": "Wellesley College",
@@ -245,6 +263,46 @@
       "render": "makeDegree",
       "records": [
           {
+          "title": "This Website",
+          "place": "Web App",
+          "duration": "CS 220: Human-Computer Interaction",
+          "description": "A website that allows me to elaborate on my professional skills and background",
+          "details": [
+            "React architecture enables flexible design elements and easy data input",
+            "Designed with simplicity in mind with respect to both structure and aesthetics",
+            "Projected to include either automatic parsing of my job history database from Notion or an input interface to abstract from typing in a JSON file, which frankly I'm getting rather sick of by this point"
+          ],
+          "tags" : [
+            "React", "HTML", "CSS", "JSON", "Bootstrap"
+          ],
+          "links" : [
+            {
+              "address" : "",
+              "type": ""
+            }
+          ]
+        },
+         {
+          "title": "Introspect",
+          "place": "App Concept and Website",
+          "duration": "CS 220: Human-Computer Interaction",
+          "description": "A journaling app designed to help users romanticize their own lives",
+          "details": [
+            "Journal: leads a user through prompted reflection on their day and allows a user to upload photos, audio, location data, and other media among stickers and drawings to capture the highlights",
+            "Calendar: displays a user's entries in calendar form with personalized icons and colors to summarize each day for an easy glance at recent wellness",
+            "Comfort Catalogue: saves a user's music, movie, TV, and book inputs in an easily searchable format so they can quickly recognize and rediscover media that has previously brought them comfort"
+          ],
+          "tags" : [
+            "Balsamiq", "user research"
+          ],
+          "links" : [
+            {
+              "address" : "https://cs.wellesley.edu/~mac220/Introspect/",
+              "type": ""
+            }
+          ]
+        },
+          {
           "title": "Quibble",
           "place": "Full-Stack App",
           "duration": "Personal",
@@ -303,55 +361,9 @@
               "type": ""
             }
           ]
-        },
-        {
-          "title": "This Website",
-          "place": "Web App",
-          "duration": "CS 220: Human-Computer Interaction",
-          "description": "A website that allows me to elaborate on my professional skills and background",
-          "details": [
-            "React architecture enables flexible design elements and easy data input",
-            "Designed with simplicity in mind with respect to both structure and aesthetics",
-            "Projected to include either automatic parsing of my job history database from Notion or an input interface to abstract from typing in a JSON file, which frankly I'm getting rather sick of by this point"
-          ],
-          "tags" : [
-            "React", "HTML", "CSS", "JSON", "Bootstrap"
-          ],
-          "links" : [
-            {
-              "address" : "",
-              "type": ""
-            }
-          ]
         }
       ]
     },
-    {
-      "title": "Human-Centered Design",
-      "render": "makeDegree",
-      "records": [
-          {
-          "title": "Introspect",
-          "place": "App Concept",
-          "duration": "CS 220: Human-Computer Interaction",
-          "description": "A journaling app designed to help users romanticize their own lives",
-          "details": [
-            "Journal: leads a user through prompted reflection on their day and allows a user to upload photos, audio, location data, and other media among stickers and drawings to capture the highlights",
-            "Calendar: displays a user's entries in calendar form with personalized icons and colors to summarize each day for an easy glance at recent wellness",
-            "Comfort Catalogue: saves a user's music, movie, TV, and book inputs in an easily searchable format so they can quickly recognize and rediscover media that has previously brought them comfort"
-          ],
-          "tags" : [
-            "Balsamiq", "user research"
-          ],
-          "links" : [
-            {
-              "address" : "",
-              "type": ""
-            }
-          ]
-        }
-      ]
-    }
    ]
  },
  "about" : {
