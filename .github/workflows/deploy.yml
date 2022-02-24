@@ -6,10 +6,18 @@ on:
       - main
       - master
 
+defaults:
+  run:
+    shell: bash
+    working-directory: scripts
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - name: PWD
+        run: pwd
       - name: Build React app
         run: npm run build
       - name: Update gh-pages branch
