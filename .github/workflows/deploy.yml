@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v2
-          with:
-            node-version: '17'
+        with:
+          node-version: "17"
       - uses: actions/checkout@v2
       - name: PWD
         run: pwd
