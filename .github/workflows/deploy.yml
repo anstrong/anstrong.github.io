@@ -17,9 +17,9 @@ jobs:
       - name: Setup node
         run: npm install
       - name: Authorship 1
-        run: git config --global user.email annabellestrong@gmail.com
+        run: git config --global user.email "annabellestrong@gmail.com"
       - name: Authorship 2
-        run: git config --global user.name Annabelle Strong
+        run: git config --global user.name "Annabelle Strong"
       - name: Build React app
         run: npm run build
       - name: Update gh-pages branch
