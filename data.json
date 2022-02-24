@@ -3,9 +3,9 @@
   "sections": [
       {
       "title": "Experience",
-       "render": "makeJob",
-       "records": [
-         {
+      "render": "makeJob",
+      "records": [
+        {
           "title": "Snap n' Go Undergraduate Researcher",
           "place": "Wellesley College",
           "duration": "Spring 2022",
@@ -363,7 +363,7 @@
           ]
         }
       ]
-    },
+    }
    ]
  },
  "about" : {
