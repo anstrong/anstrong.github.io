@@ -37,7 +37,7 @@ export default function Home() {
           />
         </div>
         <div>
-          <a href="https://onedrive.live.com/?authkey=%21ACf3rPyS6pNvxzE&cid=B23F11CD41DE316F&id=B23F11CD41DE316F%2184165&parId=B23F11CD41DE316F%2136093&o=OneUp" className="download-button" title="View PDF Resume"><i className="fas fa-file-download fa-2x download-icon"></i></a>
+          <a href="https://github.com/anstrong/anstrong.github.io/blob/9161a71522d17336688c04306876db832a1ad1d6/assets/Resume.pdf" className="download-button" title="View PDF Resume"><i className="fas fa-file-download fa-2x download-icon"></i></a>
         </div>
       </footer>
     </Router>
