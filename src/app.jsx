@@ -35,7 +35,7 @@ export default function Home() {
     address: "https://github.com/anstrong"
   }
   ]
-  const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 750px)' });
   if (!isMobile) {
    /* return (
     <main role="main" className="wrapper">
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
         <div className="content">
         <About />
-        <i> hi! thank you for your interest. this site is much nicer on a computer if you want more information.</i>
+        <i>please visit this website (anstrong.github.io) on a desktop for more information.</i>
         </div>
       </main>
     );
