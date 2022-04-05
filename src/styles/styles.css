@@ -18,7 +18,6 @@ to this section's matching END comment to see page-specific styles.
   --font-family-header: "HK Grotesk";
 }
 
-
 /* Basic page style resets */
 * {
   box-sizing: border-box;
@@ -50,7 +49,7 @@ to this section's matching END comment to see page-specific styles.
   height: 2.75rem;
   align-items: center;
   cursor: pointer;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -63,7 +62,7 @@ to this section's matching END comment to see page-specific styles.
   margin-right: 0.5rem;
 }
 .btn--remix:hover {
-  background-color: #D0FFF1;
+  background-color: #d0fff1;
 }
 
 /* Navigation grid */
@@ -107,6 +106,7 @@ body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
 }
+
 .wrapper {
   min-height: var(--wrapper-height);
   display: grid;
@@ -114,6 +114,11 @@ body {
   margin: 0 1rem;
   min-height: 86vh;
 }
+
+.mobile {
+  font-size: 100px;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -136,7 +141,8 @@ h1 {
 }
 
 .page {
-  width: 100%
+  padding-right: auto;
+  padding-left: auto;
 }
 
 .page h1 {
@@ -186,7 +192,6 @@ h1 {
 h2 {
   color: var(--color-text-main);
 }
-  
 
 .record {
   margin-bottom: 30px;
@@ -200,7 +205,6 @@ h2 {
 .section {
   padding: 0;
   margin-top: 100px;
-  align: center;
   text-align: left;
 }
 
@@ -215,6 +219,8 @@ h2 {
   float: center;
   font-family: HK Grotesk;
   min-height: 200px;
+  min-width: 450px;
+  max-width: 1000px;
 }
 
 .name {
@@ -318,8 +324,8 @@ header {
   color: var(--color-text-main);
   border: solid var(--color-accent) 3px;
   border-radius: 50%;
-  vertical-align: middle; 
-  text-align: center; 
+  vertical-align: middle;
+  text-align: center;
   margin: 25px;
   margin-top: 35px;
   padding-top: 9px;
@@ -340,7 +346,7 @@ header {
   text-decoration: none;
 }
 
-.back{
+.back {
   float: left;
   color: var(--color-accent);
   margin: 15px;
@@ -361,5 +367,3 @@ header {
   margin: 10px;
   padding: 10px;
 }
-
-
