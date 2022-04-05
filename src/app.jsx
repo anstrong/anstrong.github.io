@@ -36,25 +36,27 @@ export default function Home() {
   }
   ]
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
-  if(isMobile) {
+  if (!isMobile) {
+   /* return (
+    <main role="main" className="wrapper">
+        <About />
+    </main>
+    );*/
     return (
-      <Switch>
-        <Route path="/" component={
-          <main role="main" className="wrapper">
-          <div className="links top-bar">
-            <SocialButtonSet
-              buttons={buttonList}
-            />
-          </div>
-          <div className="content">
-          <About />
+      <main role="main" className="wrapper">
+        <div className="links top-bar">
+          <SocialButtonSet
+            buttons={buttonList}
+          />
           <div>
             <a href="https://github.com/anstrong/anstrong.github.io/blob/9161a71522d17336688c04306876db832a1ad1d6/assets/Resume.pdf" className="download-button" title="View PDF Resume"><i className="fas fa-file-download fa-2x download-icon"></i></a>
           </div>
-          </div>
-          </main>
-        } />
-      </Switch>
+        </div>
+        <div className="content">
+        <About />
+        <i> hi! thank you for your interest. this site is much nicer on a computer if you want more information.</i>
+        </div>
+      </main>
     );
   }
   else {
