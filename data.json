@@ -1,4 +1,12 @@
-{"resume": {
+{ "assets": {
+    "portraits": [
+    ],
+    "logo": "",
+    "resumes": [
+      ""
+    ]
+  },
+  "resume": {
   "icon": "far fa-file-alt",
   "sections": [
       {
@@ -277,7 +285,7 @@
           ],
           "links" : [
             {
-              "address" : "",
+              "address" : "https://anstrong.github.io",
               "type": ""
             }
           ]

@@ -35,8 +35,8 @@ export default function Home() {
     address: "https://github.com/anstrong"
   }
   ]
-  const isMobile = useMediaQuery({ query: '(max-width: 750px)' });
-  if (!isMobile) {
+  const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
+  if(isMobile) {
    /* return (
     <main role="main" className="wrapper">
         <About />

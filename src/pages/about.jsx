@@ -13,7 +13,7 @@ export default function About() {
   return (
     <div className="page">
     <header className="justify-content-center">
-      <Link href="/"><img className="portrait" title="Home" src="https://cdn.glitch.me/47315a0e-1265-4e95-aa84-887a21ec6fb2%2F2021%2520Portrait.jpg?v=1635389451629"></img></Link>
+      <Link href="/"><img className="portrait" title="Home" src="../assets/portrait1.jpg"></img></Link>
       <h1 className="title">
         About Me
       </h1>

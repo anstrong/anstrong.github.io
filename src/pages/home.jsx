@@ -4,7 +4,7 @@ import { useWiggle } from "../hooks/wiggle";
 import myData from '../../data.json';
 import Menu from "../components/menu.jsx";
 
-const imgs = ["https://cdn.glitch.me/47315a0e-1265-4e95-aa84-887a21ec6fb2%2Flogo.png?v=1635296262360",]
+const imgs = ["../assets/logo.png"]
 var currentImg = 0;
 
 
