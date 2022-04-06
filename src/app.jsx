@@ -1,17 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Router, Link } from "wouter";
 import "./styles/styles.css";
 import PageRouter from "./components/router.jsx";
 import About from "./pages/about";
-import useHashLocation from "./hooks/wouter-hash";
 import Seo from './components/seo.jsx';
 import SocialButtonSet from './components/social.jsx';
-import Resume from '/resumes/Resume.pdf'
 
 const ResumeButton = () => {
   return (
     <div>
-      <a href={new URL(Resume, import.meta.url).href} className="download-button" title="View PDF Resume"><i className="fas fa-file-download fa-2x download-icon"></i></a>
+      <a href={new URL('/resumes/Resume.pdf', import.meta.url).href} className="download-button" title="View PDF Resume"><i className="fas fa-file-download fa-2x download-icon"></i></a>
     </div>
   );
 } 
@@ -28,7 +26,8 @@ export default function Home() {
     address: "https://github.com/anstrong"
   }
   ]
-  const isMobile = window.innerWidth <= 800;
+  const isMobile = true;//window.innerWidth <= 800;
+  console.log(window.innerWidth);
   if(isMobile) {
     return (
       <main role="main" className="wrapper">
