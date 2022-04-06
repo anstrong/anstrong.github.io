@@ -5,8 +5,8 @@ import myData from '../../data.json';
 import Menu from "../components/menu.jsx";
 
 const imgs = [
-  '../../public/assets/logo.png',
-  '../../public/assets/memoji.jpeg']
+  '/assets/logo.png',
+  '/assets/memoji.jpeg']
 var currentImg = 0;
 
 export default function Home() {
