@@ -13,7 +13,7 @@ export default function About() {
   return (
     <div className="page">
     <header className="justify-content-center">
-      <Link href="/"><img className="portrait" title="Home" src="../assets/portrait1.jpg"></img></Link>
+        <Link href="/"><img className="portrait" title="Home" src='../../public/assets/portrait1.jpg'></img></Link>
       <h1 className="title">
         About Me
       </h1>
