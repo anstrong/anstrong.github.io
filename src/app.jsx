@@ -26,7 +26,7 @@ export default function Home() {
     address: "https://github.com/anstrong"
   }
   ]
-  const isMobile = true;//window.innerWidth <= 800;
+  const isMobile = window.innerWidth <= 800;
   console.log(window.innerWidth);
   if(isMobile) {
     return (
