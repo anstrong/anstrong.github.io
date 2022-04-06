@@ -4,30 +4,27 @@ import Head from './head.jsx';
 import myData from '../../data.json';
 
 const Page = props => {
-var sections = myData[props.name.toLowerCase()].sections;
-/*sections = sections.map(section => (
-    {...section, ref: React.createRef()}
-));*/
+    var data = myData[props.name.toLowerCase()];
+    var sections = data.sections;
 
-console.log(sections);
-
-return (
-    <div className="page">
-        <Head
-            title={`My ${props.name}`}
-            sections = {sections}
-        />
-        <ul>
-            {sections.map(section => (
-            <Section 
-                title={section.title}
-                records={section.records}
-                //render={eval(section.render)}
-                key={section.title}
+    return (
+        <div className="page">
+            <Head
+                title={data.title}
+                sections={sections}
+                img={data.img}
             />
-            ))}
-        </ul>
-    </div>
+            <ul>
+                {sections.map(section => (
+                <Section 
+                    title={section.title}
+                    records={section.records}
+                    //render={eval(section.render)}
+                    key={section.title}
+                />
+                ))}
+            </ul>
+        </div>
 )};
 
 export default Page;

@@ -198,7 +198,6 @@ h2 {
   padding-top: 20px;
   color: var(--color-accent);
   font-family: HK Grotesk;
-  align: center;
   list-style: none;
 }
 
@@ -260,12 +259,9 @@ button:hover {
   background-color: var(--color-bg);
 }
 
-.logo {
-  height: 150px;
-  margin-top: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+img {
+  border: solid var(--color-accent) 3px;
+  border-radius: 50%;
 }
 
 .portrait {
@@ -280,7 +276,6 @@ button:hover {
 
 header {
   width: 100%;
-  align: center;
 }
 
 .record-footer {
@@ -350,7 +345,6 @@ header {
   float: left;
   color: var(--color-accent);
   margin: 15px;
-  align: left;
 }
 
 .top-bar {

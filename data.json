@@ -1,13 +1,7 @@
-{ "assets": {
-    "portraits": [
-    ],
-    "logo": "",
-    "resumes": [
-      ""
-    ]
-  },
-  "resume": {
+{ "resume": {
+  "title": "My Resume",
   "icon": "far fa-file-alt",
+  "img": "logo.png",
   "sections": [
       {
       "title": "Experience",
@@ -264,8 +258,10 @@
   ]
   },
  "projects" : {
-   "icon": "fas fa-code-branch",
-   "sections": [
+  "title": "My Projects",
+  "icon": "fas fa-code-branch",
+  "img": "memoji.jpg",
+  "sections": [
     {
       "title": "Programming",
       "render": "makeDegree",
@@ -375,7 +371,9 @@
    ]
  },
  "about" : {
+  "title": "About Me",
    "icon": "far fa-user",
+  "img": "portrait1.jpg",
    "sections": [
       {
       "title": "Developer.  Designer. Problem-Solver.",
