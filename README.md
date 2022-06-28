@@ -5,12 +5,11 @@ Get in-page scrolling working
 - maybe merge into single page?
 
 Add links to records
-- design similar to social media buttons at bottom
-- match link type to icon (icons.json)
+- ~~design similar to social media buttons at bottom~~
 
 Streamline code
 - remove remaining Glitch starter code
-- abstract "about" and "projects" to shared interface
+- ~~abstract "about" and "projects" to shared interface~~
 - make sure overlaid footer is context-specific
 - rename/revamp card organization
 - consolidate CSS classes
@@ -28,4 +27,4 @@ Abstract color scheme
 - auto-calculated based on reference color?
 - make logo SVG so color can also be changed
 
-Add dynamic sizing
+~~Add dynamic sizing~~
