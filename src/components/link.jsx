@@ -15,7 +15,7 @@ const Button = props => (
 )
 
 const File = address => (
-    new URL(`/files/${address}`, import.meta.url)
+    new URL(`../../public/files/${address}`, import.meta.url)
 )
 
 const LinkedAsset = props => {
