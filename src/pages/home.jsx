@@ -11,7 +11,7 @@ var currentImg = 0;
 
 export default function Home() {
   var data = myData;
-  var pages = ["about", "resume", "projects"];
+  var pages = ["about", "resume", "projects"]; //"skills"
 
   return (
     <div className = "content">

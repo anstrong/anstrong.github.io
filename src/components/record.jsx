@@ -1,12 +1,6 @@
 import * as React from "react";
+import LinkedAsset from "./link";
 
-const icons = {
-    "custom":"",
-    "GitHub":"",
-    "LinkedIn":"",
-    "Notion":"",
-    "back":""
-}
 const RecordHeader = props => (
     <div className="header card-title">
         <h3 class = "name">{props.left}</h3>
@@ -16,17 +10,13 @@ const RecordHeader = props => (
 
 const RecordContent = props => (
 <ul className="details"> 
-    {props.details.map(detail => (
-                <li> {detail} </li>
-    ))} 
+    {props.details.map(detail => <li> {detail} </li>)} 
 </ul>
 )
 
 const RecordFooter = props => (
 <ul className="tags">
-    {props.list.map(tag => (
-        <span class="badge badge-pill">{tag}</span>
-    ))} 
+    {props.list.map(tag => <span class="badge badge-pill">{tag}</span>)} 
 </ul>
 )
 
@@ -49,6 +39,14 @@ const Record = props => {
                     <RecordFooter
                         list={props.footer}
                     />
+                    <span> {
+                        props.links.map(link => (
+                            <LinkedAsset
+                                address={link.address}
+                                label={link.type}
+                                key={link.type}
+                            />))}
+                    </span>
                 </div>
             </div>
         </li>

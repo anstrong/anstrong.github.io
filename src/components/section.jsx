@@ -15,6 +15,7 @@ const Section = section => {
 }
 
 function makeGeneric(item) {
+    console.log(item)
     return (
         <Record
             header={item.duration}
@@ -23,6 +24,7 @@ function makeGeneric(item) {
             subtitle={item.description}
             content={item.details}
             footer={item.tags}
+            links={item.links}
         />
     );
 }

@@ -294,10 +294,10 @@ header {
   margin-top: 25px;
 }
 
-.social-icon {
+.sm_icon {
   float: right;
   margin-right: 10px;
-  color: var(--color-accent);
+  color: var(--color-text-main);
 }
 
 .active {

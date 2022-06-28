@@ -4,37 +4,38 @@ import "./styles/styles.css";
 import PageRouter from "./components/router.jsx";
 import About from "./pages/about";
 import Seo from './components/seo.jsx';
-import SocialButtonSet from './components/social.jsx';
+import LinkedAsset from './components/link.jsx';
 
+new URL('/files/Resume.docx', import.meta.url)
 const ResumeButton = () => {
   return (
     <div>
-      <a href={new URL('/resumes/Resume.pdf', import.meta.url).href} className="download-button" title="View PDF Resume"><i className="fas fa-file-download fa-2x download-icon"></i></a>
+      <a href={new URL('/files/Resume.pdf', import.meta.url).href} target="_blank" className="download-button" title="View PDF Resume"><i className="fas fa-file-download fa-2x download-icon"></i></a>
     </div>
   );
 } 
 
+const SocialButtonSet = () => (
+    <ul>
+    <LinkedAsset
+      address="https://github.com/anstrong"
+      label="GitHub"
+    />
+    <LinkedAsset
+      address="https://www.linkedin.com/in/annabellestrong/"
+      label="LinkedIn"
+    />
+  </ul>
+)
+
 export default function Home() {
-  const buttonList = [{
-    label: "LinkedIn",
-    icon: "fa-linkedin-in",
-    address: "https://www.linkedin.com/in/annabellestrong/"
-  },
-  {
-    label: "GitHub",
-    icon: "fa-github",
-    address: "https://github.com/anstrong"
-  }
-  ]
   const isMobile = window.innerWidth <= 800;
   console.log(window.innerWidth);
   if(isMobile) {
     return (
       <main role="main" className="wrapper">
         <div className="links top-bar">
-          <SocialButtonSet
-            buttons={buttonList}
-          />
+          <SocialButtonSet />
           <ResumeButton/>
         </div>
         <div className="content">
@@ -58,9 +59,7 @@ export default function Home() {
         </main>
         <footer className="footer fixed-bottom">
           <div className="links">
-            <SocialButtonSet
-              buttons={buttonList}
-            />
+            <SocialButtonSet />
           </div>
           <ResumeButton/>
         </footer>

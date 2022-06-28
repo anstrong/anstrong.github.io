@@ -146,28 +146,6 @@
       "title": "Education",
       "render": "makeDegree",
       "records": [
-          {
-          "title": "High School Diploma",
-          "place": "Choate Rosemary Hall",
-          "duration": "Class of 2019",
-          "description": "",
-          "details": [
-            "3.8 GPA and awarded Dean's List recognition for all terms",
-            "Head Programmer for Choate Robotics' VEX and FIRST teams for three years",
-            "Peer Tutor in Physics for three years",
-            "Selected as a Prefect",
-            "Notable courses: Robotics I, II, and III; Introduction to Web Development, AP Computer Science, Mobile App Development"
-          ],
-          "tags" : [
-            "C", "Java", "HTML", "CSS", "JavaScript", "Python", "Swift", "Ionic", "robotics", "VEX", "FIRST"
-          ],
-          "links" : [
-            {
-              "address" : "",
-              "type": ""
-            }
-          ]
-        },
         {
           "title": "Bachelors of Arts",
           "place": "Wellesley College",
@@ -186,6 +164,28 @@
             {
               "address" : "",
               "type": ""
+            }
+          ]
+        },
+        {
+          "title": "High School Diploma",
+          "place": "Choate Rosemary Hall",
+          "duration": "Class of 2019",
+          "description": "",
+          "details": [
+            "3.8 GPA and awarded Dean's List recognition for all terms",
+            "Head Programmer for Choate Robotics' VEX and FIRST teams for three years",
+            "Peer Tutor in Physics for three years",
+            "Selected as a Prefect",
+            "Notable courses: Robotics I, II, and III; Introduction to Web Development, AP Computer Science, Mobile App Development"
+          ],
+          "tags" : [
+            "C", "Java", "HTML", "CSS", "JavaScript", "Python", "Swift", "Ionic", "robotics", "VEX", "FIRST"
+          ],
+          "links" : [
+            {
+              "address" : "CRH_Diploma.pdf",
+              "type": "Certificate"
             }
           ]
         }
@@ -208,8 +208,8 @@
           ],
           "links" : [
             {
-              "address" : "",
-              "type": ""
+              "address" : "Lifeguarding_Cert.pdf",
+              "type": "Certificate"
             }
           ]
         }
@@ -257,7 +257,7 @@
     }
   ]
   },
- "projects" : {
+"projects" : {
   "title": "My Projects",
   "icon": "fas fa-code-branch",
   "img": "memoji.jpg",
@@ -269,7 +269,7 @@
           {
           "title": "This Website",
           "place": "Web App",
-          "duration": "CS 220: Human-Computer Interaction",
+          "duration": "Personal",
           "description": "A website that allows me to elaborate on my professional skills and background",
           "details": [
             "React architecture enables flexible design elements and easy data input",
@@ -281,12 +281,12 @@
           ],
           "links" : [
             {
-              "address" : "https://anstrong.github.io",
+              "address" : "",
               "type": ""
             }
           ]
         },
-         {
+        {
           "title": "Introspect",
           "place": "App Concept and Website",
           "duration": "CS 220: Human-Computer Interaction",
@@ -302,7 +302,7 @@
           "links" : [
             {
               "address" : "https://cs.wellesley.edu/~mac220/Introspect/",
-              "type": ""
+              "type": "Website"
             }
           ]
         },
@@ -367,20 +367,69 @@
           ]
         }
       ]
-    }
-   ]
- },
- "about" : {
+    },
+    {
+      "title": "Research",
+      "render": "makeDegree",
+      "records": [
+        {
+          "title": "COVID, Conflict, and Reddit",
+          "place": "Data Science Paper",
+          "duration": "CS 315: Data and Text Mining",
+          "description": "ABSTRACT: Reddit's r/AmITheAsshole community is a popular and divisive forum in which individuals post descriptions of personal moral dilemmas or accusations for other users to judge. While the judicial dynamics of subreddit are well-documented, few studies have examined the implicit sociological data embedded in its posts. In response to this blind spot, this paper aims to track the common topics behind those submissions over a five-year period (between June 2016 and June 2021, inclusive) to see if and how the COVID-19 pandemic and subsequent social shift impacted the subjects, prevalence, and nature of interpersonal conflict. Through topic modeling analysis, we find that no such shift is evident in the data.",
+          "details": [ ],
+          "tags" : [ ],
+          "links" : [
+            {
+              "address" : "COVID__Conflict__and_Reddit.pdf",
+              "type": "Paper"
+            }
+          ]
+        }
+    ]
+    }]
+  },
+"skills" : {
+    "title": "My Skills",
+    "icon": "fa fa-code",
+    "img": "logo.png",
+    "sections": [
+        {
+        "title": "Technologies",
+        "render": "",
+        "records": [
+          {
+            "title": "React",
+            "place": "Web Development",
+            "duration": "x",
+            "description": "y",
+            "details": [
+              "z"
+            ],
+          "tags" : [
+            "Arduino", "Neopixel", "C", "soldering", "woodworking", "CAD"
+          ],
+          "links" : [
+            {
+              "address" : "",
+              "type": ""
+            }
+          ]
+          }]
+        }
+    ]
+  },
+"about" : {
   "title": "About Me",
-   "icon": "far fa-user",
+  "icon": "far fa-user",
   "img": "portrait1.jpg",
-   "sections": [
+  "sections": [
       {
       "title": "Developer.  Designer. Problem-Solver.",
       "render": "makeDegree",
       "records": [
       ]
     }
-   ]
- }
+  ]
+}
 }
