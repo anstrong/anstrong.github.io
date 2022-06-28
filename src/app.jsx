@@ -6,7 +6,6 @@ import About from "./pages/about";
 import Seo from './components/seo.jsx';
 import LinkedAsset from './components/link.jsx';
 
-new URL('/files/Resume.docx', import.meta.url)
 const ResumeButton = () => {
   return (
     <div>
