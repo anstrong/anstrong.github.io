@@ -1,7 +1,5 @@
 import * as React from "react";
 import myData from '../../data.json';
-import { Link } from "wouter";
-import Icon from '../components/icon.jsx'
 import Head from '../components/head.jsx'
 
 export default function About() {
