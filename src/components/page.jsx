@@ -5,7 +5,7 @@ import myData from '../../data.json';
 
 const Page = props => {
     var data = myData[props.name.toLowerCase()];
-    var sections = data.sections;
+    var sections = data.sections.map(section => [section, React.createRef()]);
 
     return (
         <div className="page">
@@ -15,12 +15,13 @@ const Page = props => {
                 img={data.img}
             />
             <ul>
-                {sections.map(section => (
-                <Section 
-                    title={section.title}
-                    records={section.records}
-                    //render={eval(section.render)}
-                    key={section.title}
+                {sections.map(([section, ref]) => (
+                    <Section 
+                        ref={ ref }
+                        title={section.title}
+                        records={section.records}
+                        //render={eval(section.render)}
+                        key={section.title}
                 />
                 ))}
             </ul>

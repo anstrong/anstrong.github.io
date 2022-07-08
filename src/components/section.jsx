@@ -1,10 +1,11 @@
 import * as React from "react";
 import Record from './record.jsx';
 
-const Section = section => {
+const Section = (section, ref) => {
+    //console.log(ref)
     return (
-        <div className="section" id={section.title}>
-            <h2><b> {section.title} </b></h2>
+        <div className="section" id={section.title} ref={ref}>
+            <h2><b> {section.title}</b></h2>
             <ul className="record-list">
                 {section.records.map(record => makeGeneric(record)
                     //section.render(record)
@@ -47,4 +48,4 @@ const MakeSection = React.forwardRef((props, {ref}) => (
     />
 ))
 
-export default Section;
+export default React.forwardRef(Section);
