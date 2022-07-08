@@ -8,6 +8,22 @@
       "render": "makeJob",
       "records": [
         {
+          "title": "Technology Leadership Development Program Intern",
+          "place": "Travelers Insurance",
+          "duration": "Summer 2022",
+          "description": "Shared Innovation Group",
+          "details": [],
+          "tags" : [
+            "AI", "sentiment analysis", "React"
+          ],
+          "links" : [
+            {
+              "address" : "",
+              "type": ""
+            }
+          ]
+        },
+        {
           "title": "Undergraduate Researcher",
           "place": "Wellesley College",
           "duration": "Spring 2022",
@@ -45,7 +61,7 @@
           ]
         },
         {
-          "title": "TLDP Intern",
+          "title": "Technology Leadership Development Program Intern",
           "place": "Travelers Insurance",
           "duration": "Summer 2021",
           "description": "Data Analytics Group",
@@ -281,8 +297,8 @@
           ],
           "links" : [
             {
-              "address" : "",
-              "type": ""
+              "address" : "https://github.com/anstrong/anstrong.github.io",
+              "type": "Repository"
             }
           ]
         },
@@ -306,6 +322,26 @@
             }
           ]
         },
+        {
+          "title": "TutorTrac",
+          "place": "Full-Stack App",
+          "duration": "CS 317: Mobile App Development",
+          "description": "A React Native prototype app that simplifies tutoring session logistics",
+          "details": [
+            "Allows users to create, join, and track group and individual tutoring sessions in a centralized system",
+            "Uses Firebase for data storage and user validation", 
+            "Compatible with both iOS and Android platforms"
+          ],
+          "tags" : [
+            "Firebase", "React Native"
+          ],
+          "links" : [
+            {
+              "address" : "",
+              "type": ""
+            }
+          ]
+        },
           {
           "title": "Quibble",
           "place": "Full-Stack App",
@@ -322,8 +358,8 @@
           ],
           "links" : [
             {
-              "address" : "",
-              "type": ""
+              "address" : "https://github.com/anstrong/Quibble",
+              "type": "Repository"
             }
           ]
         },
@@ -342,8 +378,8 @@
           ],
           "links" : [
             {
-              "address" : "",
-              "type": ""
+              "address" : "https://github.com/anstrong/Kindle-Notion-Vocab-Backup",
+              "type": "Repository"
             }
           ]
         },

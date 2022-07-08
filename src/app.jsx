@@ -29,7 +29,6 @@ const SocialButtonSet = () => (
 
 export default function Home() {
   const isMobile = window.innerWidth <= 800;
-  console.log(window.innerWidth);
   if(isMobile) {
     return (
       <main role="main" className="wrapper">
