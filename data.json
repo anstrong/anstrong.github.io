@@ -8,11 +8,28 @@
       "render": "makeJob",
       "records": [
         {
+          "title": "Software Development Engineer",
+          "place": "Publicis Sapient",
+          "duration": "September 2023",
+          "description": "Trainee",
+          "details": [],
+          "tags" : [
+          ],
+          "links" : [
+            {
+              "address" : "",
+              "type": ""
+            }
+          ]
+        },
+        {
           "title": "Technology Leadership Development Program Intern",
           "place": "Travelers Insurance",
           "duration": "Summer 2022",
           "description": "Shared Innovation Group",
-          "details": [],
+          "details": [
+            "Developed a MERN web app to apply sentiment analysis and data visualization to wellness survey data."
+          ],
           "tags" : [
             "AI", "sentiment analysis", "React"
           ],
@@ -29,7 +46,7 @@
           "duration": "Spring 2022",
           "description": "Wellesley CrowdNets Lab",
           "details": [
-            "Developing a mobile app using React Native to carry out an experiment about incentivizing data collection in the general population."
+            "Developed a mobile app using React Native to carry out an experiment about incentivizing data collection in the general population."
           ],
           "tags" : [
             "research", "app development", "React Native"
@@ -169,8 +186,8 @@
           "description": "Double major in Computer Science and Cognitive Science",
           "details": [
             "4.0 GPA",
-            "Notable Computer Science courses: Data Structures, Introduction to Computer Systems, Fundamentals of Algorithms, Principles of Programming Languages, Human-Computer Interaction, Mobile App Development",
-            "Notable Cognitive Sciece courses: Statistics, Sensation and Perception, Psychology of Language, 2D Design",
+            "Notable Computer Science courses: Human-Computer Interaction, Mobile App Development, Data and Text Mining, Machine Learning, Natural Language Processing",
+            "Notable Cognitive Sciece courses: Statistics, Sensation and Perception, Psychology of Language, 2D Design, Spoken and Written Language",
             "Notable Mathematics courses: Multivariable Calculus, Combinatorics and Graph Theory, Linear Algebra, Differential Equations"
           ],
           "tags" : [
