@@ -8,7 +8,11 @@ const icons = {
     "GitHub": "fa fa-github",
     "Certificate": "fa fa-certificate",
     "LinkedIn": "fa fa-linkedin",
-    "Paper": "fa fa-file-text-o"
+    "Paper": "fa fa-file-text-o",
+    "Poster": "fa fa-file-image-o",
+    "Notebook": "fa fa-file-code-o",
+    "Code": "fa fa-code",
+    "Article": "fa fa-university"
 }
 
 const Button = props => (

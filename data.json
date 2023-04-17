@@ -346,7 +346,7 @@
           "description": "A React Native prototype app that simplifies tutoring session logistics",
           "details": [
             "Allows users to create, join, and track group and individual tutoring sessions in a centralized system",
-            "Uses Firebase for data storage and user validation", 
+            "Uses Firebase for data storage and user validation",
             "Compatible with both iOS and Android platforms"
           ],
           "tags" : [
@@ -365,8 +365,8 @@
           "duration": "Personal",
           "description": "An app that scrapes WizardingWorld.com quizzes for a Harry Potter Trivial Pursuit companion app",
           "details": [
-            "Uses BS4 and Selenium to load and scrape quiz and question data", 
-            "Saves data in MongoDB cluster", 
+            "Uses BS4 and Selenium to load and scrape quiz and question data",
+            "Saves data in MongoDB cluster",
             "Serves access to database using a RESTful API utilizing Python, Flask, and Heroku",
             "Will soon feature a React Native iOS app with a swipable card interface"
           ],
@@ -436,6 +436,14 @@
             {
               "address" : "COVID__Conflict__and_Reddit.pdf",
               "type": "Paper"
+            },
+            {
+              "address" : "COVID__Conflict__and_Reddit-Code.pdf",
+              "type": "Notebook"
+            },
+            {
+              "address" : "COVID__Conflict__and_Reddit-Poster.pdf",
+              "type": "Poster"
             }
           ]
         }
