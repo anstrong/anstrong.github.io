@@ -4,6 +4,10 @@
   "img": "logo.png",
   "sections": [
       {
+      "title": "Experience",
+      "render": "makeJob",
+      "records": [
+        {
           "title": "Technology Leadership Development Program Intern",
           "place": "Travelers Insurance",
           "duration": "Summer 2022",
