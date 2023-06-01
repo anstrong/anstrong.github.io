@@ -4,25 +4,6 @@
   "img": "logo.png",
   "sections": [
       {
-      "title": "Experience",
-      "render": "makeJob",
-      "records": [
-        {
-          "title": "Software Development Engineer",
-          "place": "Publicis Sapient",
-          "duration": "September 2023",
-          "description": "Trainee",
-          "details": [],
-          "tags" : [
-          ],
-          "links" : [
-            {
-              "address" : "",
-              "type": ""
-            }
-          ]
-        },
-        {
           "title": "Technology Leadership Development Program Intern",
           "place": "Travelers Insurance",
           "duration": "Summer 2022",
