@@ -176,8 +176,8 @@
           ],
           "links" : [
             {
-              "address" : "",
-              "type": ""
+              "address" : "Unofficial_Transcript.pdf",
+              "type": "File"
             }
           ]
         },
@@ -199,7 +199,7 @@
           "links" : [
             {
               "address" : "CRH_Diploma.pdf",
-              "type": "Certificate"
+              "type": "Diploma"
             }
           ]
         }

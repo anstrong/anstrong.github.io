@@ -12,7 +12,9 @@ const icons = {
     "Poster": "fa fa-file-image-o",
     "Notebook": "fa fa-file-code-o",
     "Code": "fa fa-code",
-    "Article": "fa fa-university"
+    "Article": "fa fa-university",
+    "File": "fa fa-file-o",
+    "Diploma": "fa fa-graduation-cap"
 }
 
 const Button = props => (
