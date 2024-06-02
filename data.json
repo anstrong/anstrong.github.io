@@ -217,6 +217,23 @@
       "title": "Certifications",
       "render": "makeDegree",
       "records": [
+        {
+          "title": "Certified Cloud Practitioner",
+          "place": "Amazon Web Services (AWS)",
+          "duration": "December 2023",
+          "description": "",
+          "details": [
+            "Trained in core AWS services and architecture patterns"
+          ],
+          "tags" : [
+          ],
+          "links" : [
+            {
+              "address" : "AWS_CCP_Cert.pdf",
+              "type": "Certificate"
+            }
+          ]
+        },
           {
           "title": "Professional Bartending",
           "place": "Connecticut School of Bartending",
