@@ -18,7 +18,9 @@ const icons = {
 }
 
 const Button = props => (
-    <a href={props.address} target="_blank" title={props.label}><i className={`sm_icon ${props.icon}`}></i></a>
+    <a href={props.address} target="_blank" title={props.label}>
+        <i className={`sm_icon ${props.icon}`}/>
+    </a>
 )
 
 function linkFile(file) {
@@ -26,19 +28,14 @@ function linkFile(file) {
 }
 
 const LinkedAsset = props => {
-    if (props && props.address) {
-        return (
-            <Button
-                address={!props.address.includes("http") ? linkFile(`/files/${props.address}`): props.address}
-                icon={!props.icon || !props.icon.includes("-") ? icons[props.label] : props.icon}
-                label={props.label}
-                newTab={props.address.includes("http")}
-            />
-        );
-    }
-    else {
-        return (<></>);
-    }
+    return (
+        props?.address? <Button
+            address={props.address.includes("http") ? props.address : linkFile(`/files/${props.address}`)}
+            icon={props.icon?.includes("-") ?  props.icon : icons[props.label]}
+            label={props.label}
+            newTab={props.address.includes("http")}
+        /> : null
+    );
 }
 export default LinkedAsset;
 

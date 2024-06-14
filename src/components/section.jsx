@@ -2,14 +2,13 @@ import * as React from "react";
 import Record from './record.jsx';
 
 const Section = (section, ref) => {
-    //console.log(ref)
     return (
         <div className="section" id={section.title} ref={ref}>
-            <h2><b> {section.title}</b></h2>
+            <h2>
+                <b> {section.title}</b>
+            </h2>
             <ul className="record-list">
-                {section.records.map(record => makeGeneric(record)
-                    //section.render(record)
-                )}
+                {section.records.map(record => makeGeneric(record))}
             </ul>
         </div>
     );
@@ -28,24 +27,5 @@ function makeGeneric(item) {
         />
     );
 }
-
-function makeJob(job) {
-    return (
-        makeGeneric(job)
-    );
-}
-
-function makeDegree(degree) {
-    return (
-        makeGeneric(degree)
-    );
-}
-
-const MakeSection = React.forwardRef((props, {ref}) => (
-    <Section 
-        {...props}
-        ref={ref}
-    />
-))
 
 export default React.forwardRef(Section);

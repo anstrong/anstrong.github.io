@@ -16,13 +16,13 @@ const Page = props => {
             />
             <ul>
                 {sections.map(([section, ref]) => (
-                    <Section 
+                    <Section
                         ref={ ref }
                         title={section.title}
                         records={section.records}
                         //render={eval(section.render)}
                         key={section.title}
-                />
+                    />
                 ))}
             </ul>
         </div>

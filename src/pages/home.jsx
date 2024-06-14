@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <div className = "content">
-      <img class="profile" src={imgs[currentImg]}></img>
+      <img class="profile" src={imgs[currentImg]}/>
       <div className="heading">
           <h1 className="title">Annabelle Strong</h1>
       </div>

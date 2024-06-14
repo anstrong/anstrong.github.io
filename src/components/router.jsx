@@ -14,15 +14,19 @@ import Skills from "../pages/skills";
 * We use Switch to only render one route at a time https://github.com/molefrog/wouter#switch-
 */
 
-export default () => (
+export default function PageRouter() {
+  return(
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/resume" component={Resume} />
       <Route path="/projects" component={Projects} />
       <Route path="/skills" component={Skills} />
+      {
+      /*    <Route path="/resume" component={Resume} />
+            <Route path="/projects" component={Projects} />*/
+      }
     </Switch>
-);
+    )
+};
 
-/*       <Route path="/resume" component={Resume} />
-      <Route path="/projects" component={Projects} />*/

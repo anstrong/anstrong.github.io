@@ -3,20 +3,20 @@ import LinkedAsset from "./link";
 
 const RecordHeader = props => (
     <div className="header card-title">
-        <h3 class = "name">{props.left}</h3>
+        <h3 class="name">{props.left}</h3>
         <h3 class="place">{props.right}</h3>
     </div>
 )
 
 const RecordContent = props => (
-<ul className="details"> 
-    {props.details.map(detail => <li> {detail} </li>)} 
+<ul className="details">
+    {props.details.map(detail => <li> {detail} </li>)}
 </ul>
 )
 
 const RecordFooter = props => (
 <ul className="tags">
-    {props.list.map(tag => <span class="badge badge-pill">{tag}</span>)} 
+    {props.list.map(tag => <span class="badge badge-pill">{tag}</span>)}
 </ul>
 )
 
