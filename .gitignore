@@ -3,3 +3,4 @@ dist
 build
 ~$*
 DRAFT_*
+public/.DS_Store
